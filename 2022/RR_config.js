@@ -3,24 +3,6 @@ var config_data = `
   "title":"Scouting 2022",
   "page_title":"Rapid React",
   "elements":{
-    "pit": {
-      "Scouter Initials": {
-        "code":"s",
-        "type":"scouter",
-        "size":5,
-        "maxSize":5,
-        "required":"true"
-      },
-      "Drivetrain":{
-        "code":"dt",
-        "type":"radio",
-        "choices":{
-          "sw":"Swerve<br>",
-          "wcd":"WCD<br>",
-          "cus":"Custom<br>",
-          "kit":"Kit"
-        },
-    }
     "prematch": {
       "Scouter Initials": {
         "code":"s",
