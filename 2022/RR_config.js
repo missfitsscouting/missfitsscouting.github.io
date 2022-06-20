@@ -16,9 +16,9 @@ var config_data = `
         "type":"radio",
         "choices":{
           "sw":"Swerve<br>",
-          "qf":"WCD<br>",
-          "sf":"Custom<br>",
-          "f":"Kit"
+          "wcd":"WCD<br>",
+          "cus":"Custom<br>",
+          "kit":"Kit"
         },
     }
     "prematch": {
