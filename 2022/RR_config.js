@@ -20,6 +20,11 @@ var config_data = `
           "cus":"Custom<br>",
           "kit":"Kit"
         },
+        "number_of_wheels":{
+          "code":"wh",
+          "title":"Number of Wheels"
+          "type":"counter"
+          },
     }
     "prematch": {
       "Scouter Initials": {
@@ -53,7 +58,6 @@ var config_data = `
         "type":"match",
         "min":1,
         "max":100,
-        "required":"true"
       },
      "Robot": {
         "code":"r",
@@ -66,7 +70,6 @@ var config_data = `
           "r3":"Red-3",
           "b3":"Blue-3"
         },
-        "required":"true"
       },
       "Team #": {
         "code":"t",
