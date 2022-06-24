@@ -9,7 +9,6 @@ var config_data = `
         "type":"scouter",
         "size":5,
         "maxSize":5,
-        "required":"true"
       },
       "Drivetrain":{
         "code":"dt",
@@ -32,13 +31,11 @@ var config_data = `
         "type":"scouter",
         "size":5,
         "maxSize":5,
-        "required":"true"
       },
       "Event":{
         "code":"e",
         "type":"event",
         "defaultValue":"2022casj",
-        "required":"true",
         "disabled":"true"
       },
       "Match Level":{
@@ -51,7 +48,6 @@ var config_data = `
           "f":"Final"
         },
         "defaultValue":"qm",
-        "required":"true"
       },
       "Match #":{
         "code":"m",
