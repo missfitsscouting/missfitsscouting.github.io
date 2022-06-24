@@ -84,23 +84,23 @@ var config_data = `
         "filename":"2022/field_image.png"
       }
     },
-    "auton": {
-      "Taxi": {
+    "matchscouting": {
+      "Taxi During Auto": {
         "code":"at",
         "title": "Taxied?",
         "type":"bool"
       },
-      "Upper Cargo Scored": {
+      "Auto Upper Cargo Scored": {
         "code":"au",
         "title": "Uppoer Cargo Scored",
         "type":"counter"
       },
-      "Lower Cargo Scored": {
+      "Auto Lower Cargo Scored": {
         "code":"al",
         "title": "Lower Cargo Scored",
         "type":"counter"
       },
-       "Cargo Missed": {
+       "Auto Cargo Missed": {
         "code":"al",
         "title": "Cargo Missed",
         "type":"counter"
@@ -111,18 +111,17 @@ var config_data = `
         "type":"bool"
       }
     },
-    "teleop": {
-      "Upper Cargo Scored": {
+      "Telop Upper Cargo Scored": {
         "code":"tu",
         "title": "Uppoer Cargo Scored",
         "type":"counter"
       },
-      "Lower Cargo Scored": {
+      "Telop Lower Cargo Scored": {
         "code":"tl",
         "title": "Lower Cargo Scored",
         "type":"counter"
       },
-       "Cargo Missed": {
+       "Telop Cargo Missed": {
         "code":"tl",
         "title": "Cargo Missed",
         "type":"counter"
@@ -132,25 +131,12 @@ var config_data = `
         "title": "Was Defended",
         "type":"bool"
       },
-      "Cargo Intake From": {
-        "code":"cif",
-        "title": "Cargo Intake From",
-        "type":"radio",
-        "choices":{
-          "t":"Terminal<br>",
-          "g":"Ground<br>",
-          "b":"Both<br>",
-          "x":"Not Attempted"
-        },
-        "defaultValue":"x"
-      },
       "Shooting Spot": {
         "code":"ss",
         "title": "Shooting Spot",
         "type":"field_image",
         "filename":"2022/field_image.png"
-      }
-    },
+      },
     "endgame": {
       "Climb": {
         "code":"c",
@@ -195,6 +181,9 @@ var config_data = `
           "n":"Not Confident"
       },
        "defaultValue":"a"
+    },
+    "specific": {
+      
     }
     }
   }
