@@ -199,9 +199,9 @@ var config_data = `
         "title": "Enemy Balls",
         "type":"bool"
       },
-      "Strategically stalled opposing alliance defense?": {
-        "code":"oap",
-        "title": "Good D",
+      "Effective prevention of opposing alliance shots/goals?": {
+        "code":"pvnt",
+        "title": "Prevention",
         "type":"bool"
       },
       "Comments": {
