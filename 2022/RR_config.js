@@ -194,24 +194,24 @@ var config_data = `
         },
         "defaultValue":"na"
       },
-       "Strategically held enemy cargo during match?": {
+      "Strategically held enemy cargo during match?": {
         "code":"hc",
         "title": "Enemy Balls",
         "type":"bool"
       },
-      "Effective prevention of opposing alliance shots/goals?": {
+    "Effective prevention of opposing alliance shots/goals?": {
         "code":"pvnt",
         "title": "Prevention",
         "type":"bool"
       },
-      "Comments": {
+    "Comments": {
         "code":"co",
         "title": "Comments",
         "type":"text",
         "size":15,
         "maxSize":50
       },
-      "Confidence Rating": {
+    "Confidence Rating": {
         "code":"cnf",
         "title": "Confidence Rating",
         "type":"radio",
