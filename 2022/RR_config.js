@@ -84,9 +84,9 @@ var config_data = `
         "title": "Cargo Missed",
         "type":"counter"
       },
-      "Intake During Auto": {
+      "Opposing Alliance Cargo Collected/Butterdusted?": {
         "code":"ac",
-        "title": "Picked up more cargo? Butterdusted?",
+        "title": "Intake During Auto",
         "type":"bool"
       }
     },
