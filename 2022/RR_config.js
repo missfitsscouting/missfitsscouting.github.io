@@ -84,7 +84,7 @@ var config_data = `
         "title": "Cargo Missed",
         "type":"counter"
       },
-      "Opposing Alliance Cargo Collected/Butterdusted?": {
+      "Opposing Alliance Balls Intaked/Butterdusted": {
         "code":"ac",
         "title": "Intake During Auto",
         "type":"bool"
@@ -209,7 +209,7 @@ var config_data = `
         "title": "Comments",
         "type":"text",
         "size":15,
-        "maxSize":100
+        "maxSize":50
       },
       "Confidence Rating": {
         "code":"cnf",
@@ -222,6 +222,6 @@ var config_data = `
       },
        "defaultValue":"a"
     }
+    }
   }
 }`;
-
