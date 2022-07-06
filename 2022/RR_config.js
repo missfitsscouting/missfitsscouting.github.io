@@ -121,9 +121,9 @@ var config_data = `
         "title":"Seconds Disabled",
         "type":"counter"
       },
-      "Shooting Spot": {
+      "Shot Map": {
         "code":"ss",
-        "title": "Shooting Spot",
+        "title": "Shoot Map",
         "type":"field_image",
         "filename":"2022/field_image.png"
       }
