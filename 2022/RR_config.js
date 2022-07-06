@@ -111,17 +111,15 @@ var config_data = `
         "title": "Was Defended",
         "type":"bool"
       },
-      "Cargo Intake From": {
-        "code":"cif",
-        "title": "Cargo Intake From",
-        "type":"radio",
-        "choices":{
-          "t":"Terminal<br>",
-          "g":"Ground<br>",
-          "b":"Both<br>",
-          "x":"Not Attempted"
-        },
-        "defaultValue":"x"
+      "Died/Tipped": {
+        "code":"d",
+        "title": "Died/Tipped?",
+        "type":"bool"
+      },
+      "Seconds Disabled": {
+        "code":"sec",
+        "title":"Seconds Disabled",
+        "type":"counter"
       },
       "Shooting Spot": {
         "code":"ss",
@@ -157,6 +155,55 @@ var config_data = `
       }
     },
     "postmatch": {
+      "Driver Skill": {
+        "code":"ds",
+        "title": "Driver Skill",
+        "type":"radio",
+        "choices":{
+          "uno":"1<br>",
+          "dos":"2<br>",
+          "tres":"3<br>",
+          "cuatro":"4<br>",
+          "cinco":"5<br>",
+          "seis":"6<br>",
+          "siete":"7<br>",
+          "ocho":"8<br>",
+          "nueve":"9<br>",
+          "diez":"10<br>",
+          "na":"Not Assessed"          
+        },
+        "defaultValue":"x"
+      },
+      "Defense Rating": {
+        "code":"dr",
+        "title": "Defense?",
+        "type":"radio",
+        "choices":{
+          "uno":"1<br>",
+          "dos":"2<br>",
+          "tres":"3<br>",
+          "cuatro":"4<br>",
+          "cinco":"5<br>",
+          "seis":"6<br>",
+          "siete":"7<br>",
+          "ocho":"8<br>",
+          "nueve":"9<br>",
+          "diez":"10<br>",
+          "na":"Not Assessed<br>",
+          "x" :"Not attempted"
+        },
+        "defaultValue":"na"
+      },
+       "Strategically held enemy cargo during match?": {
+        "code":"hc",
+        "title": "Enemy Balls",
+        "type":"bool"
+      },
+      "Effective prevention of opposing alliance shots/goals?": {
+        "code":"pvnt",
+        "title": "Prevention",
+        "type":"bool"
+      },
       "Comments": {
         "code":"co",
         "title": "Comments",
