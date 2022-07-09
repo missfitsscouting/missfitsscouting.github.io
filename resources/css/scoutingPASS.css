@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'Arial,';
+    font-family: 'Arial';
     font-style: normal;
     font-weight: normal;
 
 
-html, body {
+html, body{
     height: 100%;
     width: 100%;
     margin: 0;
@@ -85,7 +85,6 @@ html, body {
 }
 
 #auton{
-    display: table;
 }
 
 #teleop{
@@ -102,7 +101,7 @@ html, body {
 }
 
 h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     text-align: center;
     border-style: groove;
     border-color: white; 
@@ -117,7 +116,7 @@ h1{
 }
 
 h2{
-    font-family: Alexis;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 30px;
     font-weight: 300;
@@ -148,7 +147,7 @@ h2{
 }
 
 #nextButton1, #nextButton2, #nextButton9, #nextButton10, .clearForm{
-    font-family: Alexis; 
+    font-family: Arial, Helvetica, sans-serif; 
     padding: 10px;
     background-color: rgb(151, 199, 240);
     text-decoration: none;
@@ -156,20 +155,20 @@ h2{
 }
 
 #nextButton3, #nextButton4, #nextButton5, #nextButton6, #nextButton7, #nextButton8, .undoButton{
-    font-family: Alexis;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: black; 
     padding: 10px;
     color: white;
 }
 
 #prevButton7, #prevButton8, #prevButton9{
-    font-family: Alexis;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(151, 199, 240); 
     padding: 10px;
 }
 
 #prevButton1, #prevButton2, #prevButton3, #prevButton4, #prevButton5, #prevButton6{
-    font-family: Alexis;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: black; 
     padding: 10px;
     color: white;
@@ -177,19 +176,19 @@ h2{
 }
 
 #prematch_table{
-    font: Alexis;
+    font: Arial;
     text-align: center;
 }
 
 
 h1 .odd {
-    font-family: Alexis;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: #0AB4EC;
 }
 
 h1 .even {
-    font-family: Alexis;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: #42B333;
 }
