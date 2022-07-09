@@ -1,12 +1,10 @@
 @font-face {
-    font-family: 'Alexis';
+    font-family: 'Arial,';
     font-style: normal;
     font-weight: normal;
-    src: local('Alexis'), url('../fonts/alex.woff') format('woff');
-    src: url("../fonts/alexisv3.ttf") format('truetype');
-}
 
-html, body{
+
+html, body {
     height: 100%;
     width: 100%;
     margin: 0;
@@ -87,6 +85,7 @@ html, body{
 }
 
 #auton{
+    display: table;
 }
 
 #teleop{
@@ -103,7 +102,7 @@ html, body{
 }
 
 h1{
-    font-family: Alexis;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     border-style: groove;
     border-color: white; 
