@@ -1,11 +1,3 @@
-@font-face {
-    font-family: 'Alexis';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Alexis'), url('../fonts/alex.woff') format('woff');
-    src: url("../fonts/alexisv3.ttf") format('truetype');
-}
-
 html, body{
     height: 100%;
     width: 100%;
@@ -63,7 +55,7 @@ html, body{
     margin: 2vw;
 }
 
-.field-image-src{  
+.field-image{  
     background-position: center;
     border: 1px solid;
 }
