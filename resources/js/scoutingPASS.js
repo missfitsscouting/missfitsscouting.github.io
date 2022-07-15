@@ -513,7 +513,6 @@ function getLevel(){
 
 function validateLevel() {
 	if (document.getElementById("input_l_qm").checked ||
-		document.getElementById("input_l_ef").checked ||
 		document.getElementById("input_l_qf").checked ||
 		document.getElementById("input_l_sf").checked ||
 		document.getElementById("input_l_f").checked
@@ -527,28 +526,30 @@ function validateLevel() {
 function validateData() {
 	var ret = true
 	var errStr = "Bad fields: ";
-	for (rf of requiredFields) {
-		// Robot requires special (radio) validation
-		if (rf == "r") {
-			if (!validateRobot()) {
-				errStr += rf + " "
-				ret = false
-			}
-		} else if (rf == "l") {
-			if (!validateLevel()) {
-				errStr += rf + " "
-				ret = false
-			}
-		// Normal validation (length <> 0)
-		} else if (document.getElementById("input_"+rf).value.length == 0) {
-			errStr += rf + " "
-			ret = false
-		}
-	}
-	if (ret == false) {
-		alert("Enter all required values\n"+errStr);
-	}
-	return ret
+  
+
+  for (rf of requiredFields) {
+    // Robot requires special (radio) validation
+    if (rf == "r") {
+      if (!validateRobot()) {
+        errStr += rf + " "
+        ret = false
+      }
+    } else if (rf == "l") {
+      if (!validateLevel()) {
+        errStr += rf + " "
+        ret = false
+      }
+    // Normal validation (length <> 0)
+    } else if (document.getElementById("input_"+rf).value.length == 0) {
+      errStr += rf + " "
+      ret = false
+    }
+  }
+  if (ret == false) {
+    alert("Enter all required values\n"+errStr);
+  }
+  return ret
 }
 
 function getData() {
