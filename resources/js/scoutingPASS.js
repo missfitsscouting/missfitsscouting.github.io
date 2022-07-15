@@ -443,53 +443,6 @@ function configure(){
     idx = addElement(pmt, idx, key, value);
   });
 
-  aac = mydata.elements.pit_gen;
-  aat = document.getElementById("pit_table");
-  var idx = 0;
-  Object.entries(aac).forEach((el) => {
-    const [key, value] = el;
-    idx = addElement(aat, idx, key, value);
-  });
-
-  aac2 = mydata.elements.pit_auto;
-  aat2 = document.getElementById("pit_table2");
-  var idx = 0;
-  Object.entries(aac2).forEach((el) => {
-    const [key, value] = el;
-    idx = addElement(aat2, idx, key, value);
-  });
-
-  aac3 = mydata.elements.pit_teleop;
-  aat3 = document.getElementById("pit_table3");
-  var idx = 0;
-  Object.entries(aac3).forEach((el) => {
-    const [key, value] = el;
-    idx = addElement(aat3, idx, key, value);
-  });
-
-  aac4 = mydata.elements.pit_shooting;
-  aat4 = document.getElementById("pit_table4");
-  var idx = 0;
-  Object.entries(aac4).forEach((el) => {
-    const [key, value] = el;
-    idx = addElement(aat4, idx, key, value);
-  });
-
-  aac5 = mydata.elements.pit_climb;
-  aat5 = document.getElementById("pit_table5");
-  var idx = 0;
-  Object.entries(aac5).forEach((el) => {
-    const [key, value] = el;
-    idx = addElement(aat5, idx, key, value);
-  });
-
-  aac6 = mydata.elements.pit_mechanisms;
-  aat6 = document.getElementById("pit_table6");
-  var idx = 0;
-  Object.entries(aac6).forEach((el) => {
-    const [key, value] = el;
-    idx = addElement(aat6, idx, key, value);
-  });
 	
   return 0
 }
@@ -643,6 +596,7 @@ function getData() {
 	}
 	return str
 }
+
 
 function updateQRHeader() {
 	var str = 'Event: !EVENT! Match: !MATCH! Robot: !ROBOT! Team: !TEAM!';
