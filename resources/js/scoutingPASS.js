@@ -407,6 +407,10 @@ function configure(){
   var ac = mydata.elements.auton;
   var at = document.getElementById("auton_table");
   idx = 0;
+  // Object.entries(ac).forEach((el) => {
+  //   const [key, value] = el;
+  //   idx = addElement(at, idx, key, value);
+  // });
   Object.entries(ac).forEach((el) => {
     const [key, value] = el;
     idx = addElement(at, idx, key, value);

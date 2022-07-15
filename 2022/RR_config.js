@@ -84,7 +84,7 @@ var config_data = `
         "title": "Cargo Missed",
         "type":"counter"
       },
-      "Opposing Alliance Balls Intaked/Butterdusted": {
+      "Intake During Auto": {
         "code":"ac",
         "title": "Intake During Auto",
         "type":"bool"
@@ -176,7 +176,7 @@ var config_data = `
       },
       "Defense Rating": {
         "code":"dr",
-        "title": "Defense?",
+        "title": "Defense Rating",
         "type":"radio",
         "choices":{
           "uno":"1<br>",
@@ -194,14 +194,14 @@ var config_data = `
         },
         "defaultValue":"na"
       },
-       "Strategically held enemy cargo during match?": {
+       "Enemy Balls": {
         "code":"hc",
         "title": "Enemy Balls",
         "type":"bool"
       },
-      "Effective prevention of opposing alliance shots/goals?": {
+      "Shot Prevention": { 
         "code":"pvnt",
-        "title": "Prevention",
+        "title": "Shot Prevention",
         "type":"bool"
       },
       "Comments": {
